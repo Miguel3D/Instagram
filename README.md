@@ -2,7 +2,7 @@
 
 Esta copia de Instagram es confines educativos para aprender y poner en práctica lo visto en clase con respecto a React Native, para su desarrollo se utilizó varias librerías de iconos para no usar imágenes y tener una mejor apariencia al igual que el tipo de letra llamado Billabong que es el logo de Instagram, también se agregó librerías para incluir videos y también los emojis.
 
-###Puntos a cumplir 
+### Puntos a cumplir 
 
 1.	Crear un proyecto react native o usar uno existente.
 2.	Diseñar una pantalla igual al muro de instagram
@@ -14,8 +14,4 @@ Esta copia de Instagram es confines educativos para aprender y poner en práctic
 8.	Incluir comentarios de ejemplo en las publicaciones.
 
 
-###Images
-
-Image:
-![](https://github.com/Miguel3D/Instagram/blob/master/assets/Screenshot/splash.png?raw=true) 
 
