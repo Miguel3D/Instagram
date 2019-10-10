@@ -19,4 +19,4 @@ Esta copia de Instagram es confines educativos para aprender y poner en práctic
 ###Images
 
 Image:
-![](https://github.com/Miguel3D/Instagram/tree/master/assets/Screenshot/splash.png)
+![](https://github.com/Miguel3D/Instagram/blob/master/assets/Screenshot/splash.png?raw=true width="278"height="738") 
