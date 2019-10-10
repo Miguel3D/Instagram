@@ -96,7 +96,7 @@ export default class App extends React.Component {
     if (this.state.buttonColor4 == "#FB1914") {
       this.setState({ buttonColor4: "#000", name4: "heart-o" }); // grey
     } else {
-      this.setState({ buttonColor4: "#FB1914", name4: "heart" }); // red
+      this.setState({ buttonColor4: "#FB1914", name4: "heart" });
     }
   };
 
@@ -365,8 +365,13 @@ export default class App extends React.Component {
                         onPress={this.onButtonPress}
                       />
                     </Button>
-                    <Button transparent>
-                      <Icon3 name="message-circle" size={25} color="#000" />
+                    <Button
+                      transparent
+                      onPress={() => {
+                        this.setState({ showMe1: true });
+                      }}
+                    >
+                      <Icon3 name="message-circle" size={26} color="#000" />
                     </Button>
                     <Button transparent>
                       <Icon2 name="paper-plane" size={25} color="#000" />
@@ -379,7 +384,7 @@ export default class App extends React.Component {
                 <CardItem>
                   <Body>
                     <Text style={{ fontWeight: "bold", fontSize: 14 }}>
-                      54.590 Me gusta
+                      54.591 Me gusta
                     </Text>
                     <Text>
                       <Text style={{ fontWeight: "bold" }}>Deadmau5</Text>
@@ -576,8 +581,13 @@ export default class App extends React.Component {
                         onPress={this.onButtonPress2}
                       />
                     </Button>
-                    <Button transparent>
-                      <Icon3 name="message-circle" size={25} color="#000" />
+                    <Button
+                      transparent
+                      onPress={() => {
+                        this.setState({ showMe2: true });
+                      }}
+                    >
+                      <Icon3 name="message-circle" size={26} color="#000" />
                     </Button>
                     <Button transparent>
                       <Icon2 name="paper-plane" size={25} color="#000" />
@@ -778,8 +788,13 @@ export default class App extends React.Component {
                         onPress={this.onButtonPress3}
                       />
                     </Button>
-                    <Button transparent>
-                      <Icon3 name="message-circle" size={25} color="#000" />
+                    <Button
+                      transparent
+                      onPress={() => {
+                        this.setState({ showMe3: true });
+                      }}
+                    >
+                      <Icon3 name="message-circle" size={26} color="#000" />
                     </Button>
                     <Button transparent>
                       <Icon2 name="paper-plane" size={25} color="#000" />
@@ -981,8 +996,13 @@ export default class App extends React.Component {
                         onPress={this.onButtonPress4}
                       />
                     </Button>
-                    <Button transparent>
-                      <Icon3 name="message-circle" size={25} color="#000" />
+                    <Button
+                      transparent
+                      onPress={() => {
+                        this.setState({ showMe4: true });
+                      }}
+                    >
+                      <Icon3 name="message-circle" size={26} color="#000" />
                     </Button>
                     <Button transparent>
                       <Icon2 name="paper-plane" size={25} color="#000" />
@@ -1197,8 +1217,13 @@ export default class App extends React.Component {
                         onPress={this.onButtonPress5}
                       />
                     </Button>
-                    <Button transparent>
-                      <Icon3 name="message-circle" size={25} color="#000" />
+                    <Button
+                      transparent
+                      onPress={() => {
+                        this.setState({ showMe5: true });
+                      }}
+                    >
+                      <Icon3 name="message-circle" size={26} color="#000" />
                     </Button>
                     <Button transparent>
                       <Icon2 name="paper-plane" size={25} color="#000" />
@@ -1208,6 +1233,7 @@ export default class App extends React.Component {
                     <Icon name="bookmark-o" size={25} color="#000" />
                   </Right>
                 </CardItem>
+                {/* Miguel */}
                 <CardItem>
                   <Body>
                     <Text style={{ fontWeight: "bold", fontSize: 14 }}>
@@ -1265,6 +1291,7 @@ export default class App extends React.Component {
                               </Button>
                             </Right>
                           </Header>
+                          {/* Miguel */}
                           <Content>
                             <CardItem>
                               <Left>
