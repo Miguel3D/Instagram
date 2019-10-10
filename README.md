@@ -1,5 +1,3 @@
-# Instagram
-Clon
 ### Instagram - Clon 
 
 Esta copia de Instagram es confines educativos para aprender y poner en práctica lo visto en clase con respecto a React Native, para su desarrollo se utilizó varias librerías de iconos para no usar imágenes y tener una mejor apariencia al igual que el tipo de letra llamado Billabong que es el logo de Instagram, también se agregó librerías para incluir videos y también los emojis.
@@ -19,4 +17,5 @@ Esta copia de Instagram es confines educativos para aprender y poner en práctic
 ###Images
 
 Image:
-![](https://github.com/Miguel3D/Instagram/blob/master/assets/Screenshot/splash.png?raw=true width="278"height="738") 
+![](https://github.com/Miguel3D/Instagram/blob/master/assets/Screenshot/splash.png?raw=true) 
+
